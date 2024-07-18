@@ -1,0 +1,20 @@
+composer create-project --prefer-dist laravel/laravel colegios_
+
+composer install
+
+composer require livewire/livewire
+
+composer require laravel/ui
+
+npm install laravel-mix --save-dev
+
+
+
+npm run dev
+ 
+
+php artisan migrate
+
+php artisan db:seed
+
+php artisan config:clear
